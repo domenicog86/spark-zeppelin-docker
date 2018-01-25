@@ -12,7 +12,7 @@ I use it to evaluate independently spark code in a more convenient way then a sp
  
 ## Start the container
 ```
-  docker run -d  -p 18080:18080 -p 8088:8080  gfmi/spark-zeppelin-docker -name spark-zeppelin-docker
+  docker run -d  -p 18080:18080 -p 8088:8080 domenicog86/spark-zeppelin-docker -name spark-zeppelin-docker
 ```
 
 For other documentation see original code in https://hub.docker.com/r/mirkoprescha/spark-zeppelin/
